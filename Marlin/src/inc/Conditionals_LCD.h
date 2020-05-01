@@ -215,7 +215,7 @@
   #define U8GLIB_ST7920
   #define IS_RRD_SC
   #define ENCODER_PULSES_PER_STEP 4
-  #define ENCODER_STEPS_PER_MENU_ITEM 2
+  #define ENCODER_STEPS_PER_MENU_ITEM 1
 #endif
 
 // RepRapDiscount LCD or Graphical LCD with rotary click encoder

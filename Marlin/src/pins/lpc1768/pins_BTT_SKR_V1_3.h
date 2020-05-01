@@ -271,8 +271,8 @@
 
     #define LCD_PINS_RS             EXPA1_07_PIN
 
-    #define BTN_EN1                 EXPA2_08_PIN  // (31) J3-2 & AUX-4
-    #define BTN_EN2                 EXPA2_06_PIN  // (33) J3-4 & AUX-4
+    #define BTN_EN1                 EXPA2_06_PIN  // (31) J3-2 & AUX-4
+    #define BTN_EN2                 EXPA2_08_PIN  // (33) J3-4 & AUX-4
     #define BTN_ENC                 EXPA1_09_PIN  // (58) open-drain
 
     #define LCD_PINS_ENABLE         EXPA1_08_PIN
