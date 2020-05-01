@@ -49,8 +49,8 @@
     #define X_MIN_PIN                      P1_28  // X+
   #endif
 #else
-  #define X_MIN_PIN                        P1_29  // X-
-  #define X_MAX_PIN                        P1_28  // X+
+  #define X_MIN_PIN                        //P1_29  // X-
+  #define X_MAX_PIN                        P1_29//P1_28  // X+
 #endif
 
 #if Y_STALL_SENSITIVITY
@@ -61,8 +61,8 @@
     #define Y_MIN_PIN                      P1_26  // Y+
   #endif
 #else
-  #define Y_MIN_PIN                        P1_27  // Y-
-  #define Y_MAX_PIN                        P1_26  // Y+
+  #define Y_MIN_PIN                        //P1_27  // Y-
+  #define Y_MAX_PIN                        P1_27//P1_26  // Y+
 #endif
 
 #if Z_STALL_SENSITIVITY
@@ -97,7 +97,7 @@
 // Filament Runout Sensor
 //
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN                   P1_28
+  #define FIL_RUNOUT_PIN                   P1_24 //Zmax//P1_28
 #endif
 
 //
