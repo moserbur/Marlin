@@ -62,7 +62,7 @@
   #endif
 #else
   #define Y_MIN_PIN                        P1_27  // Y-
-  #define Y_MAX_PIN                        P1_27//P1_26  // Y+
+  #define Y_MAX_PIN                        P1_26  // Y+
 #endif
 
 #if Z_STALL_SENSITIVITY
